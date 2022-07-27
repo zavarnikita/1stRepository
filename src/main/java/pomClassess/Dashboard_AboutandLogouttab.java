@@ -15,7 +15,7 @@ public class Dashboard_AboutandLogouttab {
 		@FindBy(xpath="//*[@id='welcome']") private WebElement welcometab;
 		@FindBy(xpath="//a[@id='aboutDisplayLink']")private WebElement aboutinfo;
 		@FindBy(xpath="//*[@class='close']") private WebElement aboutclose;
-		@FindBy(xpath="//*[text()='Logou']") private WebElement logout;
+		@FindBy(xpath="//*[text()='Logout']") private WebElement logout;
 		
 		public void WelcomeNameTab()
 		{
